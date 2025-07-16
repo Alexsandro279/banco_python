@@ -1,5 +1,5 @@
 def exibir_menu():
-    print("=== Banco Python do Alex===")
+    print("=== Banco ===")
     print("1 - Depositar")
     print("2 - Sacar")
     print("3 - Extrato")
