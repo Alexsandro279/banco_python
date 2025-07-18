@@ -1,22 +1,43 @@
-# 💰 banco_python
+# 💰 Sistema Bancário em Python — V1
 
-Um mini projeto em Python que simula o funcionamento básico de um banco via terminal. O usuário pode realizar depósitos, saques, visualizar o extrato e sair da aplicação.
+Projeto desenvolvido como desafio da plataforma [DIO](https://www.dio.me/).  
+O objetivo foi criar um sistema bancário simples em Python, com funcionalidades básicas de gerenciamento de conta:
 
----
+## 🧾 Funcionalidades
 
-## 🧠 Funcionalidades
-
-- [x] Depositar valores
-- [x] Sacar valores com limite por saque
-- [x] Limite de saques diários
-- [x] Visualização de extrato com histórico
-- [x] Validação de entrada
-- [x] Interface simples via terminal
+- 📥 **Depósito** de valores positivos
+- 📤 **Saque** limitado a R$600,00 por operação e até **3 saques diários**
+- 📄 **Extrato** com listagem de depósitos, saques e saldo atual
+- 🚪 **Encerramento** seguro da aplicação com mensagem final
 
 ---
 
-## 🚀 Como usar
+## 📚 Sobre o Projeto
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/Alexsandro279/banco_python.git
+Este projeto simula um sistema de transações bancárias implementado em Python, com interação via terminal.
+
+Foram utilizados conceitos fundamentais da linguagem, como:
+
+- Estruturas condicionais (`if`, `elif`, `else`)
+- Laços de repetição (`while`)
+- Variáveis acumuladoras
+- Manipulação de strings
+- Validação de entrada de dados
+
+As movimentações são armazenadas em uma variável do tipo `str` que simula o extrato bancário.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- Python 3.x
+- Editor de Código: VS Code
+- Execução via Terminal / Prompt de Comando
+
+---
+
+## 🎮 Como usar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/Alexsandro279/nome-do-repositorio.git
